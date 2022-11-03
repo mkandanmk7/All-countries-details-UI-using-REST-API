@@ -10,7 +10,7 @@ width: 100vw;
 display: flex;
 flex-wrap: wrap;
 padding: 20px;
-gap: 15px;
+gap: 14px;
 background: rgb(245, 255, 248);
 }
 .country_card{
