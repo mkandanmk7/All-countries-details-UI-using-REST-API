@@ -1,0 +1,43 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.countries_container{
+height: 100%;
+width: 100vw;
+display: flex;
+flex-wrap: wrap;
+padding: 20px;
+gap: 15px;
+background: rgb(245, 255, 248);
+}
+.country_card{
+display: flex;
+flex-direction: column;
+/* height: 230px; */
+height: max-content;
+background: rgb(255, 254, 254);
+border-radius: 8px;
+overflow: hidden;
+box-shadow: 0 0 2px rgb(85, 83, 82);
+;
+
+}
+.flag_image{
+height: 150px;
+width: 250px;
+object-fit: cover;
+}
+
+.country_details_container{
+padding: 15px;
+}
+
+
+.name_currency_container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
